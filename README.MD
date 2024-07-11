@@ -72,3 +72,13 @@ When it come foul committed, Point Guards (PG) have high average 2.93 fouls per 
 The Larger distribution of Shooting Guards (SG) and Small Forwards (SF) in the NBA (23.8 % and 21.5 % respectively) reflects the modern NBA’s emphasis on wing players who can excel in both scoring and defense. These positions are crucial in “3-and-D” role, combining three point shooting prowess with defensive skills to enhance team performances.
 
 By examining the distribution of players	by position, we can see that Shooting Guard (SG) are the most common, followed by Small Forward (SF) and Point Guards (PG). This distribution reflects evolving trend in modern basketball, where versatility and skill are emphasized across all positions.
+
+## Research Question 2
+
+This Research question examines the relationship between player age, height category, and points scored per game (PTS) in hte NBA. Understanding correlation between these provide insight into how age and height influence scoring performances.
+
+### Covariance Matrix
+|           |Height Category|Age|PTS|
+|Height Category|0.529030|0.202499|-0.130436|
+|Age|0.202499|17.311145|4.051237|
+|PTS|-0.130436|4.051237|49.238054|
