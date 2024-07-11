@@ -197,3 +197,18 @@ Further research could explore the integration of machine learning or deep learn
 - [Predicting the 2022–2023 NBA MVP Using Python](https://www.samford.edu/sports-analytics/fans/2023/Using-Machine-Learning-to-Predict-the-NBA-MVP#:~:text=To%20solve%20this%20problem%2C%20a,will%20be%20Nikola%20Jokic%20again)
 - https://towardsdatascience.com/predicting-the-nba-mvp-with-machine-learning-c3e5b755f42e
 - https://medium.com/@atharvjoshi/predicting-the-2022-2023-nba-mvp-using-python-76cabf4422fd
+
+# Installation
+
+## Prerequisite
+
+- python -m pip install requests
+- python -m pip install pandas
+- python -m pip install beautifulsoup4
+- python -m pip install matplotlib
+- python -m pip install seaborn
+- python -m pip install scipy
+
+## Clone The Repo
+
+- git clone https://github.com/wahyunanandika/NBA_2024_MVP_By_Pos.git
