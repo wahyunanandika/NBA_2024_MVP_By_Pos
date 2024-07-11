@@ -114,3 +114,42 @@ The analysis reveals several insights into the relationships between age, height
     - Older players tend to score slightly more points per game, as indicated by the positive covariance and correlation with age.
     - There is a weak negative relationship between height category number and points scored, suggesting that taller players in higher height categories may score slightly fewer points, though this relationship is not strong.
     - The covariance and correlation values provide a nuanced view of how age and height category influence scoring performance, highlighting the complex dynamics of player statistics in professional basketball.
+
+## Research Question 3
+
+### Hypothesis Testing (Differences in Player Performances based on Age)
+
+1. Rebounds :
+
+    - Null Hypothesis (H0): There is no significant difference in rebounds between younger and older players.
+    - Alternate Hypothesis (H1): There is a significant difference in rebounds between younger and older players.
+
+2. Asissts (AST) :
+
+    - Null Hypothesis (H0): There is no significant difference in assists between younger and older players.
+    - Alternate Hypothesis (H1) : There is a significant difference in assists between younger and older players.
+
+3. Stocks (Steals + Blocks)
+
+    - Null Hypothesis (H0): There is no significant difference in stocks (steals + blocks) between younger and older players.
+    - Alternate Hypothesis (H1) : There is a significant difference in stocks (steals + blocks) between younger and older players.
+
+### Summary
+
+1. Rebounds :
+
+    - T-Statistics : -3.6723
+    - P-Value : 0.0003
+    - Conclusion : Reject the null hypothesis (H0). There is a significant difference in rebounds between younger and older players.
+
+2. Assists : 
+
+    - T-Statistics : -3.8014
+    - P-Value : 0.0002
+    - Conclusion : Reject the null hypothesis (H0). There is a significant difference in assists between younger and older players.
+
+3. Stocks (Steals + Blocks) :
+
+    - T-Statistics : -3.5198
+    - P-Value : 0.0005
+    - Conclusion : Reject the null hypothesis (H0). There is a significant difference in stocks between younger and older players.
