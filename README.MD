@@ -55,6 +55,26 @@ First research question explores the averages performances metric of NBA players
     - Power Forward (PF) : 0.52
     - Center (C) : 0.89
 
+### Variances In Points Per Game Per Position:
+
+- Point Guard (PG) : 68.44
+- Shooting Guard (SG) : 45.59
+- Small Forward (SF) : 35.91
+- Power Forward (PF) : 53.81
+- Center (C) : 44.23
+
+Interpretation : The variance indicates the spread of points scored by players in each position. Point guards have the highest variance, meaning there is a larger range in their scoring performances compared to other positions. This could be due to the diverse roles point guards play, from being primary scorers to facilitators.
+
+### Max Points per Game By Positions:
+
+- Point Guard (PG) : 33.9
+- Shooting Guard (SG) : 26.60 
+- Small Forward (SF) : 24.0
+- Power Forward (PF) : 30.40
+- Center (C) : 34.70
+
+Interpretation : The maximum points per game highlight the peak scoring performances within each position. Centers and point guards have the highest maximum points, indicating that individual players in these positions have the potential for high-scoring games.
+
 ### Distribution Players by positions in NBA:
 
 - Point Guard (PG) : 18.1%
@@ -119,6 +139,11 @@ The analysis reveals several insights into the relationships between age, height
 
 ### Hypothesis Testing (Differences in Player Performances based on Age)
 
+Age :
+
++ Younger player <= 25
++ Older PLayer > 25
+
 1. Rebounds :
 
     - Null Hypothesis (H0): There is no significant difference in rebounds between younger and older players.
@@ -153,3 +178,22 @@ The analysis reveals several insights into the relationships between age, height
     - T-Statistics : -3.5198
     - P-Value : 0.0005
     - Conclusion : Reject the null hypothesis (H0). There is a significant difference in stocks between younger and older players.
+
+These results indicate that there are statistically significant differences in rebounds, assists, and stocks (steals + blocks) between younger and older NBA players. Specifically, younger players tend to have different performance levels compared to older players in these metrics.
+
+## Conclusion
+
+The analysis of NBA player statistics highlights significant differences in performance metrics across player positions, with Point Guards leading in scoring and assists, Centers in rebounds and blocks, and Shooting Guards and Small Forwards contributing significantly across various metrics. Age influences scoring dynamics, with older players generally scoring more points per game. Hypothesis testing confirms age-related differences in rebounds, assists, and combined steals and blocks (stocks), underscoring varied player roles and development stages in professional basketball. These insights deepen our understanding of player contributions and strategic roles in modern NBA gameplay.
+
+## Further Research
+
+Further research could explore the integration of machine learning or deep learning models to predict MVP candidates based on voting patterns, player origins, demographic factors such as college attended, and fan engagement metrics. This approach could provide deeper insights into player performance and fan preferences in the evolving landscape of modern basketball. Additionally, incorporating player hot and cold zones or efficiency ratings would enhance the analysis by revealing where players are most effective on the court and how efficiently they contribute to their team's success.
+
+## References
+
+- https://www.stat.cmu.edu/capstoneresearch/315files_s24/team5.pdf
+- https://www.stat.cmu.edu/capstoneresearch/
+- https://nba-mvp-predictor.streamlit.app/
+- [Predicting the 2022–2023 NBA MVP Using Python](https://www.samford.edu/sports-analytics/fans/2023/Using-Machine-Learning-to-Predict-the-NBA-MVP#:~:text=To%20solve%20this%20problem%2C%20a,will%20be%20Nikola%20Jokic%20again)
+- https://towardsdatascience.com/predicting-the-nba-mvp-with-machine-learning-c3e5b755f42e
+- https://medium.com/@atharvjoshi/predicting-the-2022-2023-nba-mvp-using-python-76cabf4422fd
