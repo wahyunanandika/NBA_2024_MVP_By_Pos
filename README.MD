@@ -77,9 +77,40 @@ By examining the distribution of players	by position, we can see that Shooting G
 
 This Research question examines the relationship between player age, height category, and points scored per game (PTS) in hte NBA. Understanding correlation between these provide insight into how age and height influence scoring performances.
 
+To categorize height, I split players into three categories based on their positions: guards (PG, SG) for shorter players, forwards (SF, PF) for medium-height players, and centers (C) for taller players.
+
 ### Covariance Matrix
+
 |           |Height Category|Age|PTS|
 |-----------|---------------|---|---|
 |Height Category|0.529030|0.202499|-0.130436|
 |Age|0.202499|17.311145|4.051237|
 |PTS|-0.130436|4.051237|49.238054|
+
+The covariance matrix shows the covariances values between height category, age, and point scored (PTS):
+
+    - Height Category : There is a positive covariance of 0.529 between height category number and age, indicating a slight tendency    for older players to be in higher height categories
+    - Age : The covariance between age and points scored (PTS) is 4.051, suggesting a moderate positive relationship where older players tend to score more points.
+    - Points : The covariance between points scored (PTS) and height category number is -0.130, indicating a weak negative relationship where taller players in higher height categories may score slightly fewer points.
+
+### Correlation Matrix
+
+|           |Height Category|Age|PTS|
+|-----------|---------------|---|---|
+|Height Category|1.000000|0.067006|-0.025514|
+|Age|0.067006|0.067006|0.067006|
+|PTS|0.067006|0.067006|0.067006|
+
+The correlation matrix provides correlation coefficients, which standardize the relationships between variables:
+
+    - Height Catergory : The correlation coefficient with age is 0.067, suggesting a very weak positive relationship between height category number and age.
+    - Age : The correlation coefficient with points scored (PTS) is 0.139, indicating a weak positive relationship where older players tend to score slightly more points.
+    - Points : The correlation coefficient with height category number is -0.026, suggesting a negligible negative relationship between height category number and points scored (PTS).
+
+### Summary
+
+The analysis reveals several insights into the relationships between age, height category, and points scored in the NBA:
+
+    - Older players tend to score slightly more points per game, as indicated by the positive covariance and correlation with age.
+    - There is a weak negative relationship between height category number and points scored, suggesting that taller players in higher height categories may score slightly fewer points, though this relationship is not strong.
+    - The covariance and correlation values provide a nuanced view of how age and height category influence scoring performance, highlighting the complex dynamics of player statistics in professional basketball.
