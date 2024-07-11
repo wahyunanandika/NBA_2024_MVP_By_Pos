@@ -144,6 +144,8 @@ Age :
 + Younger player <= 25
 + Older PLayer > 25
 
+To determine whether there are significant differences in player performances between younger and older NBA players, t-tests are employed. T-tests are chosen because they are appropriate for comparing the means of two groups (younger players, aged 25 and below, versus older players, aged above 25) based on continuous variables such as rebounds, assists, and combined steals and blocks (stocks). The t-statistics and corresponding p-values from these tests help assess the statistical significance of these differences, providing insights into how age influences player performance in professional basketball.
+
 1. Rebounds :
 
     - Null Hypothesis (H0): There is no significant difference in rebounds between younger and older players.
