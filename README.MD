@@ -79,6 +79,7 @@ This Research question examines the relationship between player age, height cate
 
 ### Covariance Matrix
 |           |Height Category|Age|PTS|
+|-----------|---------------|---|---|
 |Height Category|0.529030|0.202499|-0.130436|
 |Age|0.202499|17.311145|4.051237|
 |PTS|-0.130436|4.051237|49.238054|
