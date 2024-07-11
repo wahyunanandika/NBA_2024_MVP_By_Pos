@@ -1,1 +1,4 @@
-test
+# Analyzing Player Position Value in Modern NBA Trends
+## Introduction
+
+The Objectives of this analysis is to identify the most valuable player positions in NBA and relate them to the evolving trends of modern basketball, in the context of this analysis, modern basketball refers to NBA gameplay characterized by evolving player roles, and fast pace game. Modern basketball emphasize versatility, speed, and skills in all positions, while on the other hand older basketball, which often featured more structured play, centred around post-up offense, and distinct positional roles. The dataset used contain statistics of NBA players across different positions, focusing on points per game, assists per game, rebounds per game, foul per game, age and height categories. 
