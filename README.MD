@@ -118,8 +118,8 @@ The covariance matrix shows the covariances values between height category, age,
 |           |Height Category|Age|PTS|
 |-----------|---------------|---|---|
 |Height Category|1.000000|0.067006|-0.025514|
-|Age|0.067006|0.067006|0.067006|
-|PTS|0.067006|0.067006|0.067006|
+|Age|0.067006|1.000000|0.138763|
+|PTS|-0.025514|0.138763|1.000000|
 
 The correlation matrix provides correlation coefficients, which standardize the relationships between variables:
 
